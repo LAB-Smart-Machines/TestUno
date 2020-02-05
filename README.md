@@ -39,7 +39,15 @@ En dicha [web][blog] recopilo artículos sobre todo lo relacionado con automatiz
 [blog]: https://github.com/LAB-Smart-Machines
 
 ## Código
-`Esto es una línea de código`
-
+```javascript
+// Esto es una línea de código
+export default () => (
+  <App>
+    <GraphQLProvider graphql={graphql}>
+      <GraphQLData queryString="LAB-Smart-Machines" repoString="TestUno" />
+    </GraphQLProvider>
+  </App>
+);
+```
 ## Imágenes
 ![Texto alternativo](https://placekitten.com/200/300)
